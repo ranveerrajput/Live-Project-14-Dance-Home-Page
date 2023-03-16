@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&family=Roboto:wght@100;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Londrina+Outline&family=Raleway&family=Roboto:wght@100;900&display=swap');
+
+*{
+    margin : 0;
+    padding : 0;
+    outline : 0;
+}
+
+/* home-page */
+
+.home-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-logo img{
+    height: 800px;
+    width: 560px;
+}
+
+body{
+    background-color: rgb(231, 229, 229);
+    overflow: hidden;
+}
+
+.right-section{
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-section ul{
+    list-style: none;
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 330px;
+    font-size: 18px;
+    font-family: Lato;
+}
+
+.nav-bar ul li{
+    margin-right: 45px;
+    width: 90px;
+}
+.nav-bar ul .in-active{
+    margin-right: 45px;
+    width: 90px ;
+    color :rgb(137, 131, 131);
+}
+
+.h-line{
+    position: relative;
+    top : 10px;
+    background-color: #1d1d1d;
+    height: 1.5px;
+    width : 300px;
+    margin-top: 10px;
+}
+
+/* row-2 */
+
+
+.row-2{
+    margin-top: -150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row-2 .heading-1{
+    color : rgb(231, 229, 229);
+    font-size : 130px ;
+    text-shadow : 0px 0px 4px #1d1d1d;  ;
+}
+
+.row-2 .heading-2{
+    font-size : 130px ;
+    position: relative;
+    top : 120px;
+    right : 170px;
+   
+}
+
+.row-2 .sub-heading{
+    font-size: 30px;
+    color : rgb(137, 131, 131);
+    position: relative;
+    top : 140px;
+    right : 150px;
+}
+
+.social-media-logo{
+    margin-top: 140px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.social-media-logo img{
+    width : 22px;
+    margin-top: 50px;
+}
+.social-logo{
+    margin-top: 60px;
+}
+
+.btn-div{
+   
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.btn{
+    color : #ffffff;
+    background-color: #1d1d1d;
+    padding : 15px 75px;
+    margin-right: 35px;
+    font-size: 17px;
+}
+
+.row-3{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row3-item{
+    font-family: Lato;
+    font-size: 19px;
+    margin-top: 15px;
+    color :rgb(137, 131, 131)
+}
+
+.v-line{
+    position: relative;
+    right : 40px;
+    height : 200px;
+    width: 1px;
+    background-color: rgb(137, 131, 131);
+}
+
+.row-3-list{
+    position: relative;
+    right : 250px;
+}
+
+.circle{
+    background-color: #1d1d1d;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-family: Lato;
+}
+
+.circle-1{
+    position: relative;
+    right : 78px;
+    bottom : 65px;
+}
+
+.circle-2{
+    position: relative;
+    right : 122px;
+    bottom : 25px;
+    background-color: rgb(137, 131, 131);
+}
+
+.circle-3{
+    position: relative;
+    right : 167px;
+    top : 12px;
+    background-color: rgb(137, 131, 131);
+}
+
+.circle-4{
+    position: relative;
+    right : 211px;
+    top : 50px;
+    background-color: rgb(137, 131, 131);
+}
+
+.circle-5{
+    position: relative;
+    right : 255px;
+    top : 87px;
+    background-color: rgb(137, 131, 131);
+}
+
+.row-3-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-3-mid-img img{
+   margin-top: 10px;
+    position: relative;
+    width: 400px;
+    right: 250px;
+   
+}
+
+.row-3-mid-cotent{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.quote{
+    font-size : 50px;
+    position: relative;
+    right: 420px;
+}
+
+.arrow{
+    height: 140px;
+    width: 3px;
+    position: relative;
+    right: 120px;
+    top : 30px;
+}
+
+.row-3-mid-cotent{
+    margin-top: 20px;
+    position: relative;
+    right : 270px;
+    font-family: Lato;
+}
+
+.arrow-down{
+    font-size: 120px;
+    position: relative;
+    right: 30px;
+    bottom: 30px;
+    font-weight: -100;
+
+}
+
+.row3-active{
+    color : #1d1d1d;
+}
+
+@media screen and (max-width : 900px){
+    body{
+        overflow: visible;
+        overflow-x: hidden;
+    }
+
+    .home-page{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .nav-bar ul{
+        margin-left: -10px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .h-line{
+        visibility: hidden;
+    }
+
+    ul li{
+        margin-top: 20px;
+    }
+
+    .row-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-2 .heading-1{
+        display: flex;
+        font-size: 75px;
+        margin-top: 200px;
+        margin-left: -150px;
+    }
+
+    .row-2 .heading-2{
+        font-size : 70px ;
+        position: relative;
+        top : 10px;
+        right : 10px;
+       
+    }
+
+    .row-2 .sub-heading{
+        font-size: 20px;
+        color : rgb(137, 131, 131);
+        position: relative;
+        top : 40px;
+        left : 70px;
+    }
+
+    .social-media-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: -100px;
+    }
+
+    .left-logo{
+        margin-top: -800px;
+        visibility: hidden;
+    }
+
+    .social-logo{
+        margin-left: 50px;
+    }
+
+    .btn-div{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row-3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .v-line{
+        visibility: hidden;
+    }
+
+    .circle{
+        visibility: hidden;
+        
+    }
+
+    .row-3-list{
+        margin-left: 400px;
+        margin-top: -150px;
+    }
+
+    .row-3-middle{
+        margin-left: 400px;
+    }
+
+    .arrow{
+        visibility: hidden;
+    }
+
+
+}
